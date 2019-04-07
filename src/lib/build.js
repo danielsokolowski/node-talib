@@ -10,11 +10,11 @@ if (process.platform == 'win32') {
   let arch;
 
   if (process.arch == 'x64') {
-    msbuildPath = '"C:/Program Files (x86)/MSBuild/14.0/Bin/MSBuild.exe"';
+    msbuildPath = '"C:\\Program Files (x86)\\Microsoft Visual Studio\\Preview\\Community\\MSBuild\\15.0\\Bin\\MSBuild.exe"';
     frameworkPath = 'C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework';
     arch = 'x64';
   } else {
-    msbuildPath = '"C:/Program Files/MSBuild/14.0/Bin/MSBuild.exe"';
+    msbuildPath = '"C:\\Program Files\\Microsoft Visual Studio\\Preview\\Community\\MSBuild\\15.0\\Bin\\MSBuild.exe"';
     frameworkPath = 'C:/Program Files/Reference Assemblies/Microsoft/Framework/.NETFramework';
     arch = 'Win32';
   }
